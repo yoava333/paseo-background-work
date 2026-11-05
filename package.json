@@ -1,0 +1,40 @@
+{
+  "name": "paseo-background-work",
+  "private": true,
+  "version": "0.0.0",
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "OVERVIEW.*.md",
+    "index.client.ts",
+    "index.client.tsx",
+    "index.server.ts",
+    "index.server.tsx",
+    "client/",
+    "server/",
+    "shared/",
+    "assets/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@getpaseo/client": "^0.15.1",
+    "@getpaseo/plugin": "0.15.1",
+    "@getpaseo/protocol": "^0.15.1",
+    "@tanstack/react-query": "^5.90.11",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.7",
+    "zod": "^4.4.3"
+  },
+  "description": "Shows the Monitor watches and background shell commands a Claude agent still has running after its turn ends",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoava333/paseo-background-work.git"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "background-work",
+  "name": "Background work",
+  "description": "Shows the Monitor watches and background shell commands a Claude agent still has running after its turn ends",
+  "media": ["assets/screenshot.png"],
+  "requirements": {
+    "paseo": ">=0.15.1"
+  }
+}
